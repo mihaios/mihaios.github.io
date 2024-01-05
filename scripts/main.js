@@ -4,8 +4,10 @@ dipperImage.onclick = () => {
     const mySrc = dipperImage.getAttribute("src");
     if (mySrc === "images/dipper.jpg") {
         dipperImage.setAttribute("src", "images/dipper.png");
+        dipperImage.setAttribute("width", "700");
     } else {
         dipperImage.setAttribute("src", "images/dipper.jpg");
+        dipperImage.setAttribute("width", "400");
     }
 };
 
